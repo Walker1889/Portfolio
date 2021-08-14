@@ -5,7 +5,9 @@
 ## Portfolio Introduction & Professional Self-Assessment
 
 <details>
-	<summary> Text - Introduction & Self-Assessment </summary>
+	<summary> ⬇️ Text - Introduction & Self-Assessment </summary>
+
+<br/>	
 	
 #####	When I began studying computer science at SNHU, I was the consummate image of an unsure beginner programmer.  Having spent nearly a decade working in another field, I had approached programming out of curiosity, found it interesting, and attempted to self-teach for a year or so.  I consider my time spent studying on my own to be valuable, although I was mired with the same uncertainties that are common to all programmers who have not yet started to program.  The consideration over which coding languages to study was a persistent worry.  I knew I should be attempting to build a portfolio of work, but had no idea what those projects should look like and where they should come from.  I was excited about certain areas in the field, but was discouraged that my work thus far all felt like the result of carefully followed tutorials.  
 #####	I knew that if I truly wanted to make progress, that a more structured study environment would be the answer.  Thankfully, I found that my coursework in computer science alleviated my previous concerns and helped me concentrate on developing fundamental programming skills without fretting over specifics until before I was prepared to.  Additionally, my classes introduced me to topics that I hadn’t previously considered as part of a well-rounded computer science education as well as areas of interest that I’ve continued to pursue outside of class.
@@ -23,24 +25,32 @@
 #####	My third and final artifact is a CRUD module I wrote to interface with MongoDB databases with Python.  Architecturally, the program is simply a list of functions allowing the user to create, read, update, and delete database objects (plus some additional functionality added during enhancements).  Although simple in build, I treasure the experience of having had to build this module because it showcases solving a common problem with ingenuity.  Barely any business operates today without the need for database manipulation, but the ability to do so simply with built-in tools is often taken for granted.  With this artifact, I could create a data analysis environment from scratch where none existed before.  Although structurally simple, I like the convergence of data analysis and problem solving this artifact represents and opted to use it to round out the final spot in my portfolio.
 	
 </details>
+
+<br/>
+
 <br/>
 
 ## Code Review
 
 <details>
-	<summary> Video - Code Review </summary>
+	<summary> ⬇️ Video - Code Review </summary>
 	
 <br/>
 	
 [![Code Review - Baber](https://img.youtube.com/vi/kq2h2wBWpD4/0.jpg)](https://www.youtube.com/watch?v=kq2h2wBWpD4)
 
 </details>
+
+<br/>
+
 <br/>
 
 ## Artifact 1 - IoT Temperature & Humidity Sensor Hub
 	
 <details>
-	<summary> Code - Artifact 1 </summary>
+	<summary> ⬇️ Code - Artifact 1 </summary>
+	
+<br/>
 	
 ``` python
 ######################################################################################
@@ -169,8 +179,12 @@ while True:
 ```
 </details>	
 
+<br/>
+
 <details>
-	<summary> Narrative - Artifact 1 </summary>
+	<summary> ⬇️ Narrative - Artifact 1 </summary>
+	
+<br/>	
 
 #####  The artifact I’ve chosen to submit for milestone two is a temperature and humidity reading application that I originally created in CS-350 in late 2020.  It is designed to be run from a RaspberryPi and formerly used a series of LEDs and an html dashboard to output its results.  Using a light sensor and a temperature and humidity reader plugged into a GrovePi HAT device on the Pi, the application only takes readings when the ambient light is above a certain threshold limit, and will take readings at timed intervals specified by the user.  I felt the original output system was lacking, so I modified it as part of my enhancements by adding an LCD display that I feel suits the spirit of the project much better.  I think the original design was suited more toward a remote weather station device, while my updates have pushed it closer to the beginnings of a smart thermostat.
 #####	This milestone is meant to showcase an artifact that exemplifies software design and engineering. While the nature of the application itself is very simple, I think it constitutes a microcosm of different software development tasks that I could expect to encounter daily as a working programmer.  There are simple examples of time handling, looping, file I/O, peripheral devices, and a slight bit of UI integration in readying the json document for use by an html dashboard.  I’m also glad to be including this project in my ePortfolio because it shows an interest in Internet of Things development, which I learned more about and developed an interest in during the course of building this project originally.  Most programmers won’t really get the opportunity to concentrate on IoT devices, but I think the inclusion of a project in a developing field, and one that I can demonstrate interest in is more likely to stand out.
@@ -178,12 +192,17 @@ while True:
 #####	Luckily, this milestone’s artifact was the same one that I just conducted my code review on last week.  Given that, all of my planned enhancements had already been documented in detail and were still fresh in my mind.  While some of my planned enhancements were more in the vein of maintaining coding standards, the ones I enjoyed implementing the most were those where I was choosing to alter the focus of the application or shore up its security.  While standards are valuable and in place for a reason, I found shifting the way the program worked to still meet its base requirements in a more creative way was much more fulfilling.  I think developing for a satellite system like the Pi puts me in a more creative mindset than a normal desktop development might.  Likewise, working with peripheral devices can present its own benefits and challenges.  While setting up the LCD output was easier than expected due to the simplicity of the included GrovePi functions, working out the times the program needed to briefly wait before taking readings was as much of a guessing game as ever.
 
 </details>
+
+<br/>
+
 <br/>
 
 ## Artifact 2 - SQL Injection Detector
 
 <details>
-	<summary> Code - Artifact 2 </summary>
+	<summary> ⬇️ Code - Artifact 2 </summary>
+	
+<br/>	
 
 ``` c++
 /*  This program creates a simple database and runs several attempts at SQL injection attacks against it
@@ -431,9 +450,13 @@ int main()
 ```
 										
 </details>	
+	
+<br/>
 
 <details>
-	<summary> Narrative - Artifact 2 </summary>
+	<summary> ⬇️ Narrative - Artifact 2 </summary>
+	
+<br/>	
 
 #####	The artifact I’ve chosen to submit for milestone three is a SQL injection detector built in C++ that I originally created for CS-405 in early 2021.  While the program itself is mainly concerned with the building of the sample SQLite database, the detection portion shows off a simple text filtration method for testing user input for potential SQL injection attacks.  I began to develop an interest in information security almost from day one in my secure coding class, and really wanted to include an artifact from it in my ePortfolio to cover another area of interest that I discovered in my time at SNHU.  
 #####	Admittedly, the more I peruse this program, the simpler it seems to me.  Upon further inspection, the actual security measure portion of my code occupies only a few lines.  However, I still believe it fits the bill of demonstrating the use of data structures and algorithms.  Algorithmically, it is very light, and aside from methods parsing text and slicing a final character form a string (and pre-built methods at that), I can’t say the artifact employs anything approaching a complex sorting algorithm.  The requirements of the program are light, and the tools used to accomplish them are similarly light.  
@@ -443,12 +466,17 @@ int main()
 #####	I found this artifact initially more challenging to enhance than the first.  Not due the complexity of the program, but due to its smaller scope.  At its base, this program is a demo showing how text entry fields can be guarded from a specific type of attack.  I consider the final product to be extremely successful in that regard and am pleased not to have tacked any unnecessary functionality that might muddy its purpose.  Like my first artifact did with IoT devices, I was eager to include this one in my ePortfolio to show enthusiasm for part of the CS field that I found an interest in through my coursework.  If I’m successful in my aims, I’ll have a portfolio that contains brief programs with clear purposes that demonstrate a diversity of interests rather than simply the most complex problems I’ve worked on.
 
 </details>
+	
 <br/>
+
+<br/>	
 
 ## Artifact 3 - PyMongo CRUD Module
 
 <details>
-	<summary> Code - Artifact 3 </summary>
+	<summary> ⬇️ Code - Artifact 3 </summary>
+	
+<br/>	
 
 ``` python
 ######################################################################################
@@ -584,8 +612,12 @@ class Store(object):
 	
 </details>
 	
+<br/>
+	
 <details>
-	<summary> Narrative - Artifact 3 </summary>
+	<summary> ⬇️ Narrative - Artifact 3 </summary>
+	
+<br/>	
 
 #####	This artifact is a MongoDB crud module written in Python for my CS-340 Client Server Development class in early 2021.  The initial incarnation of the program was intended to interact with an html dashboard that displayed information about animals housed in rescue shelters.  For the sake of displaying a more common use-case, I changed the focus of the database to be employees on a store’s payroll.  Likewise, the content of the dashboard was so closely related to the animal shelter data that I opted to only include the crud module itself as part of my portfolio.
 #####	When looking back over the database applications I worked on during my coursework, I found that nearly all of them focused on using ready-made environments to simply query databases.  Likewise, I found my experience in data mining to be very interesting and engaging, but difficult to replicate in code form because so much of it had taken place in virtual environments with very large datasets.  I was drawn to include this custom built crud module because it represented a situation in which I wasn’t presented with a console ready to accept queries, but rather needed to find a way to mesh Python code with an extant database.  I particularly enjoyed the process of writing functions for each database process and how they would be handled by the program calling them.  In the end, I felt having to write each process individually gave me a better understanding of each crud process and a greater appreciation of what it takes to set up a data analysis environment.
@@ -595,6 +627,3 @@ class Store(object):
 
 </details>
 <br/>
-
-*** Delete this link before publishing ***
-[editor on GitHub](https://github.com/Walker1889/CS-499/edit/gh-pages/index.md) 
